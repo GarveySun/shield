@@ -1,5 +1,9 @@
-const fieldName = require('./src/name')
+const shieldName = require('./src/name')
+const shieldPhone = require('./src/phone')
+const shieldIdentity = require('./src/identity')
 
 module.exports = {
-  fieldName
+  shieldName,
+  shieldPhone,
+  shieldIdentity
 }

@@ -1,6 +1,6 @@
 {
   "name": "@garvey/shield",
-  "version": "0.0.1",
+  "version": "0.02",
   "description": "shield sensitive data to show",
   "main": "index.js",
   "scripts": {
