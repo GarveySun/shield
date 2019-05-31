@@ -1,9 +1,15 @@
-const shieldName = require('./src/name')
-const shieldPhone = require('./src/phone')
-const shieldIdentity = require('./src/identity')
+const name = require('./src/name')
+const phone = require('./src/phone')
+const identity = require('./src/identity')
+const email = require('./src/email')
+const password = require('./src/password')
+const bankAccount = require('./src/bankAccount')
 
 module.exports = {
-  shieldName,
-  shieldPhone,
-  shieldIdentity
+  name,
+  phone,
+  identity,
+  email,
+  password,
+  bankAccount
 }

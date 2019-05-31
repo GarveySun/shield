@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const fieldPhone = require('../src/phone.js')
+const shield= require('../index.js')
 
 // 测试case
 const cases = [
@@ -10,11 +10,11 @@ const cases = [
   }
 ]
 
-describe('fieldPhone', function () {
+describe('phone', function () {
 
   cases.forEach(item => {
     it(item.name, function () {
-      expect(fieldPhone(item.in)).to.equal(item.out)
+      expect(shield.phone(item.in)).to.equal(item.out)
     })
   })
 

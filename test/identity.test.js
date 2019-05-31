@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const fieldIdentity = require('../src/identity.js')
+const shield= require('../index.js')
 
 // 测试case
 const cases = [
@@ -10,11 +10,11 @@ const cases = [
   }
 ]
 
-describe('fieldIdentity', function () {
+describe('identity', function () {
 
   cases.forEach(item => {
     it(item.name, function () {
-      expect(fieldIdentity(item.in)).to.equal(item.out)
+      expect(shield.identity(item.in)).to.equal(item.out)
     })
   })
 

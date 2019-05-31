@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const fieldName = require('../src/name.js')
+const shield= require('../index.js')
 
 const types = [1,2,3]
 // 测试case
@@ -16,12 +16,12 @@ const cases = [
   }
 ]
 
-describe('fieldName', function () {
+describe('name', function () {
 
   cases.forEach(ca=>{
     types.forEach(type=>{
       it(ca.name+' 类型'+type,function(){
-        expect(fieldName(ca.in, type)).to.equal(ca.out[type-1])
+        expect(shield.name(ca.in, type)).to.equal(ca.out[type-1])
       })
     })
   })
