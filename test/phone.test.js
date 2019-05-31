@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const shield= require('../index.js')
+const shield= require('../src/index.js')
 
 // 测试case
 const cases = [

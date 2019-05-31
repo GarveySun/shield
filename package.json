@@ -2,9 +2,10 @@
   "name": "@garvey/shield",
   "version": "1.0.0",
   "description": "shield sensitive data to show",
-  "main": "index.js",
+  "main": "./dist/shield.min.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "build": "webpack --config ./config/prod.config.js"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,12 @@
   "homepage": "https://github.com/GarveySun/shield#readme",
   "dependencies": {},
   "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "^8.0.6",
     "chai": "^4.2.0",
-    "mocha": "^6.1.4"
+    "mocha": "^6.1.4",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
   }
 }

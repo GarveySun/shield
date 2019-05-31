@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const shield= require('../index.js')
+const shield= require('../src/index.js')
 
 const types = [1,2,3]
 // 测试case
