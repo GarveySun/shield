@@ -20,7 +20,7 @@ const shield = require('@garvey/shield')
 import shield from '@garvey/shield'
 // or
 import {name} from '@garvey/shield'
-// or 
+// or
 ...as you want
 ```
 ## methods
@@ -47,5 +47,5 @@ abcd1234 → ********
 6200123412345678 → 6200********5678
 
 ## need more function?
-To [github](https://github.com/GarveySun/shield) and open new issue.
+To [github](https://github.com/GarveySun/shield) and open a issue .
 
