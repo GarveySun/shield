@@ -1,5 +1,6 @@
 node_modules
 .idea
+test
 .DS_Store
 .npmignore
 rollup.config.js
